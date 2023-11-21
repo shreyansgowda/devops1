@@ -1,0 +1,71 @@
+cut command in linux is used to cut the sections of the file in 2 parts
+loops in linux:
+while loops keep on executing until the condition is true
+sep is command which is used to copy a file from one server to another server
+grep is a command which is used to search for an expression in a file
+pwd-location
+
+
+github is where we will store the code
+
+repositry- each and every user we will have our own repositry 
+central repositry-used to store the code, in central repositry we cannot develop the code
+central repositry is also called as master repositry
+
+how to create a repositry?
+git init is a command which is used to create a repositry in a git
+bare repositry - central repositry in git bash
+non bare repositry- user repositry in git bash
+
+stages of a file in git repositry:
+
+1)working directory- It is used to develop a code in working directory
+2)staging area- it is something where all the stages are avialable and ready to committ
+3)local repositry- where all the files are stored in the repositry
+
+commit will save the content in the commit id and the new commit id will be created
+
+task:
+create a 2 central repos(central1 and central2)
+create 2 local repos from central1 and central2
+create 5 files in local repos and try to commit one by one
+
+each and every time if we do a new commit head will be pointing to the new commit 
+
+untracked file: whenever if we create a file in the local repositry initially it will be untracked stage
+unmodified stage:whenever if we create a file in the local repositry and once we commit it the file will be moved in unmodified stage
+modified :whenever if we create a file in the local repositry and committ it and if we edit the committed file then the file shared will be in the modified stage
+
+what is git status?
+git status is a command which is used to display the state of the file
+
+git push: it is command which is used to push the content from your local repositry to the central repositry
+git rebase: it is a command which is used to arrange the project in proper order 
+git hub is a public repositry
+
+how to configure gitbash to github
+
+SSH - securing shell
+
+ssh username root@ip address
+sudo su -xxx
+
+3 types of environment
+dev
+qa
+prod
+
+task: create a repo in the git bash and try to add 7 commits to it and push it to the github. check if all the commits and changes are available in the github.
+      delete 4 file in the git bash try to pass all the stages of the file and push it back to the github
+
+git branch: it is used to test any code which we have developing on day to day basis once the testing is done we will be merging it to the master branch
+whenever if we want to switch a branch from one branch to another branch we use git checkout
+git pull: it is a command which is used to pull the content from the central repositry and get the content from the central repositry and merge it in the local repositry
+git fetch: it is a command which is used to get the content from the central repositry but it will not merge in the local repo
+ every employee in the morning do git pull before coding and in the evening they will do git push
+
+if we try to push the content from local to center if the content is  not updated with the central repo then we will be facing an error
+
+if the head is pointing to another commit in central repo and if we are trying to pull the content from local and local head is pointing to the another commit then there will be conflict
+git stash: it is a location where we can store the content and get it back whenever required
+ git stash is available in the staging area  
